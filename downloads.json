@@ -23,12 +23,12 @@
     },
     {
       "minecraftVersion": "1.21.3",
-      "clientVersion": null,
+      "clientVersion": 0.5.2,
       "loader": "Fabric",
-      "available": false,
-      "downloadUrl": null,
-      "filename": null,
-      "message": "1.21.3 için APEX paketi henüz yayınlanmadı."
+      "available": true,
+      "downloadUrl": "./apex-client-0.5.2-mc1.21.3.jar",
+      "filename": "apex-client-0.5.2-mc1.21.3.jar",
+      "message": "APEX Client 0.5.2 indirilmeye hazır."
     },
     {
       "minecraftVersion": "1.21.4",
