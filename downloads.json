@@ -7,7 +7,7 @@
       "clientVersion": "0.5.2",
       "loader": "Fabric",
       "available": true,
-      "downloadUrl": null,
+      "downloadUrl": "./apex-client-0.5.2-mc1.21.1.jar",
       "filename": "apex-client-0.5.2-mc1.21.1.jar",
       "message": "1.21.1 için APEX Client 0.5.2 JAR dosyası henüz siteye yüklenmedi."
     },
