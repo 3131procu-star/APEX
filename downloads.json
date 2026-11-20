@@ -11,15 +11,15 @@
       "filename": "apex-client-0.5.2-mc1.21.1.jar",
       "message": "APEX Client 0.5.2 indirilmeye hazır."
     },
-    {
-      "minecraftVersion": "1.21.2",
-      "clientVersion": 0.5.2,
-      "loader": "Fabric",
-      "available": true,
-      "downloadUrl": "./apex-client-0.5.2-mc1.21.2.jar",
-      filename": "apex-client-0.5.2-mc1.21.2.jar",
-      "message": "APEX Client 0.5.2 indirilmeye hazır."
-    },
+   {
+  "minecraftVersion": "1.21.2",
+  "clientVersion": "0.5.2",
+  "loader": "Fabric",
+  "available": true,
+  "downloadUrl": "./apex-client-0.5.2-mc1.21.2.jar",
+  "filename": "apex-client-0.5.2-mc1.21.2.jar",
+  "message": "APEX Client 0.5.2 indirilmeye hazır."
+}
     {
       "minecraftVersion": "1.21.3",
       "clientVersion": null,
