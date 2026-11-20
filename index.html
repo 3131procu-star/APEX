@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101113">
+  <meta name="description" content="APEX Client için Minecraft sürümünü seç ve uyumlu Fabric JAR dosyasını indir.">
+  <title>APEX Client — İndirme Merkezi</title>
+  <link rel="icon" href="assets/apex-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="APEX ana sayfa">
+      <span class="brand-mark">A</span>
+      <span class="brand-copy"><strong>APEX</strong><small>CLIENT DOWNLOADS</small></span>
+    </a>
+    <nav class="top-nav" aria-label="Ana menü">
+      <a href="#download">İndirmeler</a>
+      <a href="#versions">Sürüm desteği</a>
+      <a href="#install">Kurulum</a>
+    </nav>
+    <span class="header-tag"><i></i> RESMÎ İNDİRME MERKEZİ</span>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> APEX CLIENT / DOWNLOAD CENTER</div>
+        <h1 id="hero-title">Sürümünü seç.<br><span>Oyuna hazır ol.</span></h1>
+        <p class="hero-description">Minecraft sürümünü seç, APEX Client için hazırlanmış uyumlu dosyayı tek yerden bul. Her sürüm kendi JAR paketiyle sunulur.</p>
+        <div class="hero-points">
+          <span><b class="point-icon">✓</b> Sürüme özel JAR</span>
+          <span><b class="point-icon">✓</b> Fabric uyumlu</span>
+          <span><b class="point-icon">✓</b> Tek tıkla indirme</span>
+        </div>
+      </div>
+
+      <section class="download-panel" id="download" aria-labelledby="download-title">
+        <div class="panel-topline"><span>APEX / RELEASE SELECTOR</span><span class="live-indicator"><i></i> SÜRÜM SEÇİMİ</span></div>
+        <div class="panel-title-row">
+          <div>
+            <div class="panel-kicker">İNDİRME MERKEZİ</div>
+            <h2 id="download-title">Minecraft sürümünü seç</h2>
+          </div>
+          <div class="apex-orb" aria-hidden="true"><span>A</span></div>
+        </div>
+
+        <label for="minecraft-version" class="field-label">MINECRAFT JAVA EDITION</label>
+        <div class="select-wrap">
+          <select id="minecraft-version" disabled aria-describedby="version-help">
+            <option>Versiyonlar yükleniyor…</option>
+          </select>
+          <span class="select-chevron" aria-hidden="true">⌄</span>
+        </div>
+        <p id="version-help" class="field-help">Yalnızca kararlı sürümler listelenir. Snapshot ve test sürümleri dahil değildir.</p>
+
+        <div class="release-card" aria-live="polite">
+          <div class="release-card-head">
+            <div class="release-label">SEÇİLİ SÜRÜM</div>
+            <span id="release-status" class="status-pill status-pending">DOSYA BEKLİYOR</span>
+          </div>
+          <div class="release-version-row">
+            <div><span class="version-prefix">MINECRAFT</span><strong id="selected-version">—</strong></div>
+            <div class="release-meta"><span>APEX CLIENT</span><b id="client-version">Henüz atanmadı</b></div>
+          </div>
+          <div class="release-divider"></div>
+          <div class="release-details">
+            <div><span>MOD YÜKLEYİCİ</span><strong id="loader-name">Fabric</strong></div>
+            <div><span>PAKET TÜRÜ</span><strong>JAR · JAVA</strong></div>
+            <div><span>DESTEK DURUMU</span><strong id="support-label">Hazırlanıyor</strong></div>
+          </div>
+          <button id="download-button" class="download-button" type="button" disabled>
+            <span id="download-button-text">JAR HENÜZ HAZIR DEĞİL</span><span class="button-arrow" aria-hidden="true">↗</span>
+          </button>
+          <p id="download-message" class="download-message" role="status">Bu sürüm için doğrulanmış bir JAR dosyası henüz yüklenmedi.</p>
+        </div>
+        <div class="panel-foot"><span>APEX CLIENT</span><span>BUILD • TEST • PLAY</span></div>
+      </section>
+    </section>
+
+    <section class="trust-strip" aria-label="İndirme bilgileri">
+      <div><span class="trust-number" id="supported-count">0</span><span class="trust-caption">YAYINA HAZIR PAKET</span></div>
+      <div><span class="trust-number">1.21.1 <small>→</small> 26.3</span><span class="trust-caption">HEDEFLENEN SÜRÜM ARALIĞI</span></div>
+      <div><span class="trust-number">JAVA</span><span class="trust-caption">MINECRAFT EDITION</span></div>
+    </section>
+
+    <section class="versions-section" id="versions">
+      <div class="section-heading">
+        <div><div class="eyebrow"><span class="eyebrow-line"></span> UYUMLULUK TAKİBİ</div><h2>Sürüm kataloğu</h2></div>
+        <p>Listede bulunan her Minecraft sürümü ayrı takip edilir. JAR dosyası eklenip test edilmeden indirmeye açılmaz.</p>
+      </div>
+      <div class="version-grid" id="version-grid">
+        <div class="loading-tile">Sürüm kataloğu yükleniyor…</div>
+      </div>
+      <p class="catalog-note"><span class="note-dot"></span> “Dosya hazır” ibaresi, ilgili sürüm için indirme dosyasının kataloğa eklendiğini belirtir. Yalnızca gerçek testlerden geçen paketleri hazır olarak işaretleyin.</p>
+    </section>
+
+    <section class="install-section" id="install">
+      <div class="install-heading"><div class="eyebrow"><span class="eyebrow-line"></span> HIZLI KURULUM</div><h2>JAR dosyasını nasıl kurarsın?</h2></div>
+      <div class="steps">
+        <article class="step-card"><span class="step-index">01</span><div class="step-symbol">↓</div><h3>Dosyayı indir</h3><p>Yukarıdan Minecraft sürümünü seç ve hazır JAR paketini indir.</p></article>
+        <article class="step-card"><span class="step-index">02</span><div class="step-symbol">▦</div><h3>Mods klasörünü aç</h3><p><code>Win + R</code> tuşlarına basıp <code>%appdata%\.minecraft\mods</code> yolunu aç.</p></article>
+        <article class="step-card"><span class="step-index">03</span><div class="step-symbol">↗</div><h3>Oyunu başlat</h3><p>Seçtiğin Minecraft sürümüyle uyumlu Fabric profilini başlat.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#top"><span class="brand-mark">A</span><span class="brand-copy"><strong>APEX</strong><small>CLIENT DOWNLOADS</small></span></a>
+    <p>Üçüncü taraf bir Minecraft/Fabric indirme merkezi değildir. Minecraft ve Fabric kendi sahiplerinin ticari markalarıdır.</p>
+    <span class="footer-version">APEX DOWNLOAD CENTER</span>
+  </footer>
+  <noscript><div class="noscript">Bu indirme sayfasının çalışması için JavaScript etkin olmalıdır.</div></noscript>
+</body>
+</html>
