@@ -1,6 +1,7 @@
+
 {
   "siteName": "APEX Client Download Center",
-  "defaultVersion": "1.21.1",
+  "defaultVersion": "1.21.2",
   "releases": [
     {
       "minecraftVersion": "1.21.1",
@@ -11,15 +12,15 @@
       "filename": "apex-client-0.5.2-mc1.21.1.jar",
       "message": "APEX Client 0.5.2 indirilmeye hazır."
     },
-   {
-  "minecraftVersion": "1.21.2",
-  "clientVersion": "0.5.2",
-  "loader": "Fabric",
-  "available": true,
-  "downloadUrl": "./apex-client-0.5.2-mc1.21.2.jar",
-  "filename": "apex-client-0.5.2-mc1.21.2.jar",
-  "message": "APEX Client 0.5.2 indirilmeye hazır."
-},
+    {
+      "minecraftVersion": "1.21.2",
+      "clientVersion": "0.5.2",
+      "loader": "Fabric",
+      "available": true,
+      "downloadUrl": "./apex-client-0.5.2-mc1.21.2.jar",
+      "filename": "apex-client-0.5.2-mc1.21.2.jar",
+      "message": "APEX Client 0.5.2 indirilmeye hazır."
+    },
     {
       "minecraftVersion": "1.21.3",
       "clientVersion": null,
@@ -27,7 +28,7 @@
       "available": false,
       "downloadUrl": null,
       "filename": null,
-      "message": "1.21.3 için doğrulanmış APEX JAR paketi henüz yayınlanmadı."
+      "message": "1.21.3 için APEX paketi henüz yayınlanmadı."
     },
     {
       "minecraftVersion": "1.21.4",
@@ -36,7 +37,7 @@
       "available": false,
       "downloadUrl": null,
       "filename": null,
-      "message": "1.21.4 için doğrulanmış APEX JAR paketi henüz yayınlanmadı."
+      "message": "1.21.4 için APEX paketi henüz yayınlanmadı."
     },
     {
       "minecraftVersion": "1.21.5",
@@ -45,7 +46,7 @@
       "available": false,
       "downloadUrl": null,
       "filename": null,
-      "message": "1.21.5 için doğrulanmış APEX JAR paketi henüz yayınlanmadı."
+      "message": "1.21.5 için APEX paketi henüz yayınlanmadı."
     },
     {
       "minecraftVersion": "1.21.6",
@@ -54,7 +55,7 @@
       "available": false,
       "downloadUrl": null,
       "filename": null,
-      "message": "1.21.6 için doğrulanmış APEX JAR paketi henüz yayınlanmadı."
+      "message": "1.21.6 için APEX paketi henüz yayınlanmadı."
     },
     {
       "minecraftVersion": "1.21.7",
@@ -63,7 +64,7 @@
       "available": false,
       "downloadUrl": null,
       "filename": null,
-      "message": "1.21.7 için doğrulanmış APEX JAR paketi henüz yayınlanmadı."
+      "message": "1.21.7 için APEX paketi henüz yayınlanmadı."
     },
     {
       "minecraftVersion": "1.21.8",
@@ -72,7 +73,7 @@
       "available": false,
       "downloadUrl": null,
       "filename": null,
-      "message": "1.21.8 için doğrulanmış APEX JAR paketi henüz yayınlanmadı."
+      "message": "1.21.8 için APEX paketi henüz yayınlanmadı."
     },
     {
       "minecraftVersion": "1.21.9",
@@ -81,7 +82,7 @@
       "available": false,
       "downloadUrl": null,
       "filename": null,
-      "message": "1.21.9 için doğrulanmış APEX JAR paketi henüz yayınlanmadı."
+      "message": "1.21.9 için APEX paketi henüz yayınlanmadı."
     },
     {
       "minecraftVersion": "1.21.10",
@@ -90,7 +91,7 @@
       "available": false,
       "downloadUrl": null,
       "filename": null,
-      "message": "1.21.10 için doğrulanmış APEX JAR paketi henüz yayınlanmadı."
+      "message": "1.21.10 için APEX paketi henüz yayınlanmadı."
     },
     {
       "minecraftVersion": "1.21.11",
@@ -99,7 +100,7 @@
       "available": false,
       "downloadUrl": null,
       "filename": null,
-      "message": "1.21.11 için doğrulanmış APEX JAR paketi henüz yayınlanmadı."
+      "message": "1.21.11 için APEX paketi henüz yayınlanmadı."
     },
     {
       "minecraftVersion": "26.1",
@@ -108,7 +109,7 @@
       "available": false,
       "downloadUrl": null,
       "filename": null,
-      "message": "26.1 için doğrulanmış APEX JAR paketi henüz yayınlanmadı."
+      "message": "26.1 için APEX paketi henüz yayınlanmadı."
     },
     {
       "minecraftVersion": "26.1.1",
@@ -117,7 +118,7 @@
       "available": false,
       "downloadUrl": null,
       "filename": null,
-      "message": "26.1.1 için doğrulanmış APEX JAR paketi henüz yayınlanmadı."
+      "message": "26.1.1 için APEX paketi henüz yayınlanmadı."
     },
     {
       "minecraftVersion": "26.1.2",
@@ -126,7 +127,7 @@
       "available": false,
       "downloadUrl": null,
       "filename": null,
-      "message": "26.1.2 için doğrulanmış APEX JAR paketi henüz yayınlanmadı."
+      "message": "26.1.2 için APEX paketi henüz yayınlanmadı."
     },
     {
       "minecraftVersion": "26.2",
@@ -135,7 +136,7 @@
       "available": false,
       "downloadUrl": null,
       "filename": null,
-      "message": "26.2 için doğrulanmış APEX JAR paketi henüz yayınlanmadı."
+      "message": "26.2 için APEX paketi henüz yayınlanmadı."
     },
     {
       "minecraftVersion": "26.3",
@@ -144,7 +145,8 @@
       "available": false,
       "downloadUrl": null,
       "filename": null,
-      "message": "26.3 için doğrulanmış APEX JAR paketi henüz yayınlanmadı."
+      "message": "26.3 için APEX paketi henüz yayınlanmadı."
     }
   ]
 }
+
