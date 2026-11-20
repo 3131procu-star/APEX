@@ -6,7 +6,7 @@
       "minecraftVersion": "1.21.1",
       "clientVersion": "0.5.2",
       "loader": "Fabric",
-      "available": false,
+      "available": true,
       "downloadUrl": null,
       "filename": "apex-client-0.5.2-mc1.21.1.jar",
       "message": "1.21.1 için APEX Client 0.5.2 JAR dosyası henüz siteye yüklenmedi."
